@@ -309,3 +309,7 @@ ul {
   color: var(--primary-500);
   box-shadow: 0 2px var(--primary-500);
 }
+.active-btn {
+  color: var(--primary-500);
+  box-shadow: 0 2px var(--primary-500);
+}
