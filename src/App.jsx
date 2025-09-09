@@ -4,13 +4,13 @@ const url = "https://www.course-api.com/react-tabs-project";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const [jobs, setjobs] = useState([]);
+  const [jobs, setJobs] = useState([]);
 
   const fetchJobs = async () => {
     try {
       const response = await fetch(url);
       const newJobs = await response.json();
-      setjobs(newJobs);
+      setJobs(newJobs);
     } catch (error) {
       console.log(error);
     }
