@@ -254,3 +254,9 @@ ul {
 }
 
 /* ============= PROJECT CSS =============== */
+
+.job-center {
+  width: 80vw;
+  margin: 5rem auto;
+  max-width: var(--max-width);
+}
