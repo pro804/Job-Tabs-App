@@ -272,7 +272,22 @@ ul {
   margin: 0.75rem 0;
 }
 .job-date {
-  color: var(--grey-600);
+  color: var(--grey-500);
   letter-spacing: var(--letterSpacing);
   margin-bottom: 2rem;
+}
+.Job-desc {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.job-icon {
+  color: var(--primary-500);
+}
+.Job-desc p {
+  font-weight: 400;
+  color: var(--grey-700);
+  line-height: 1.5;
 }
