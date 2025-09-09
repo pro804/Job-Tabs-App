@@ -34,11 +34,13 @@ const App = () => {
 
   return (
     <section className="job-center">
+      {/* Btn Container */}
       <BtnContainer
         jobs={jobs}
         currentItem={currentItem}
         setCurrentItem={setCurrentItem}
       />
+      {/* JobInfo Container */}
       <JobInfo jobs={jobs} currentItem={currentItem} />
     </section>
   );

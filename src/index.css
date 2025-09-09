@@ -313,3 +313,25 @@ ul {
   color: var(--primary-500);
   box-shadow: 0 2px var(--primary-500);
 }
+
+@media screen and (min-width: 992px) {
+  .job-center {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 4rem;
+  }
+  .btn-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .job-btn {
+    margin-bottom: 1rem;
+  }
+  .job-btn:hover {
+    box-shadow: -2px 0px var(--primary-500);
+  }
+  .active-btn {
+    box-shadow: -2px 0px var(--primary-500);
+  }
+}
